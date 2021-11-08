@@ -1,0 +1,67 @@
+
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.main-heading{
+  color:rgb(204,18,18);
+  font-size: 26px;
+}
+
+.underline{
+  height: 4px;
+  width: 4rem;
+  background-color: #f76c2f;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.bg-c-light{
+  background-color: #f2f2f2;
+}
+
+#feature{
+  position: relative;
+  float: right;
+  opacity: 0.9;
+
+}
+
+.navItem{
+  width:100px;
+}
+
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap*/
+
+/*Small devices */
+@media only screen and (max-width: 768px){ 
+    #navbarSupportedContent ul li .nav-link:hover{     
+      font-weight: bold;
+      text-decoration: underline solid #f76c2f;
+      
+}
+    
+ }
+
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    .section{
+      height:600px;
+
+}
+    .navItem:hover{
+      border: 1px solid #f2f2f2;
+      font-weight: bold;
+      border-radius: 20px;
+}
+ }
+
+

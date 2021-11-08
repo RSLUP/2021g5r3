@@ -1,0 +1,27 @@
+.footerLink .link,.footer p,.footer a{
+    color: #A9A9A9;
+}
+
+.footerLink .link:hover,.footer p:hover,.footer h5,.footer a:hover{
+    color:#fff;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) { 
+    .social a img{
+      width:100%;
+
+}
+
+ }
+
+
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (min-width: 768px) { 
+    .section{
+      height:600px;
+
+}
+ }
+
+
