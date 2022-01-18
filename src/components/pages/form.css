@@ -1,0 +1,63 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background: #6dbfd1;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 60%;
+  background: #fff;
+  display: flex;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  border-radius: 70px 0 70px 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 6px 6px 6px, rgba(0, 0, 0, 0.23) 6px 6px 6px;
+}
+
+.box-text {
+  width: 70%;
+  padding: 5%;
+}
+
+.title {
+  color: #045c84;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  border: 1px solid #70c4d6 !important;
+  border-radius: 50px !important;
+  height: 30px;
+}
+
+.Forgot-Password-link {
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  width: 100%;
+  background: #3ca9bb !important;
+  border-radius: 50px !important;
+  border: none !important;
+}
+
+.line {
+  margin-top: 30px;
+  border: 0.3px solid #c4c4c4;
+  width: 100%;
+}
+
+.Sign-In-link {
+  color: #c9b5b5;
+  font-size: 12px;
+}
+
+.Sign-In-link > a {
+  text-decoration: none;
+}
